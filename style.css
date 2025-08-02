@@ -1,0 +1,79 @@
+/* Basic CSS for a website */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+    color: #8ccd11;
+}
+
+header {
+    background: #2bc9b9;
+    color: #fff;
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+nav {
+    background: #34495e;
+    padding: 0.5rem 2rem;
+    text-align: center;
+}
+div{
+  width: 30%;
+  display: flexbox;
+}
+
+div.mycontainer {
+  width:100%;
+  overflow:auto;
+}
+div.mycontainer div{
+  width:33%;  
+  float:left;
+} 
+
+img{
+    width: 250px;
+    height: 250px;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+ul {
+  list-style-type: none; /* Removes the default bullet points */
+}
+li {
+  display: inline; /* or display: inline-block; */
+  /* Add spacing if needed */
+  margin-right: 20px;
+}
+
+
+main {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+footer {
+    background: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 2rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
